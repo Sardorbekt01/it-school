@@ -68,7 +68,7 @@
                     </button>
                     <div class="collapse navbar-collapse bg-transparent" id="navbarCollapse">
                         <div class="navbar-nav ms-auto mx-xl-auto p-0">
-                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="{% url 'home' pk=1 %}" class="nav-item nav-link">Home</a>
                             <a href="{% url 'about' pk=1 %}" class="nav-item nav-link active">About</a>
                             <a href="{% url 'service' pk=1 %}" class="nav-item nav-link">Services</a>
                             <a href="{% url 'project' pk=1 %}" class="nav-item nav-link">Projects</a>
